@@ -23,6 +23,6 @@ const paymentSchema = new mongoose.Schema({
         default: 'pending',
       },
     }, { timestamps: true });
-    
- const payment = mongoose.model('payment',paymentSchema);
- module.exports=payment;
+
+ const Payment = mongoose.model('payment',paymentSchema);
+ module.exports=Payment;
